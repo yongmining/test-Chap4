@@ -74,6 +74,18 @@ public class B_nestedFor {
 //		***
 //		****
 //		*****
+		Scanner sc = new Scanner(System.in);
+		System.out.print("출력할 줄 수를 입력하세요 : ");
+		int row = sc.nextInt();
+		
+		for(int i = 1; i <= row; i++) {
+			
+			for(int j = 1; j <= i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
 		
 	}
 }
