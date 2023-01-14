@@ -32,15 +32,15 @@ public class C_ifElseIf {
 		System.out.println("연못에서 산신령이 나타나 금도끼, 은도끼, 쇠도끼를 들고 나타났다.");
 		System.out.println("나무꾼에게 셋 중 어떤 도끼가 나무꾼의 도끼인지 물어보았다.");
 		
-		System.out.print("어느 도끼가 너의 도끼이냐? : ");
+		System.out.print("어느 도끼가 너의 도끼이냐? : "); 
 		Scanner sc = new Scanner(System.in);
 		String answer = sc.nextLine();
 		
-		if(answer.equals("금도끼")) {
+		if(answer.equals("금도끼")) {		// answer.equals. 금도끼라고 답을 할경우
 			System.out.println("이런 거짓말쟁이!! 너에게는 아무 도끼도 줄 수 없구나 이 욕심쟁이야!!");
-		} else if(answer.equals("은도끼")) {
+		} else if(answer.equals("은도끼")) {	// answer.equals. 은도끼라고 답을 할경우
 			System.out.println("욕심이 과하지는 않지만 그래도 넌 나에게 거짓말을 하고있구나!! 어서 썩 사라지거라!!");
-		} else {
+		} else {	// answer.equals. 쇠도끼라고 답을 할경우
 			System.out.println("오호~ 정직하구나~ 여기 있는 금도끼, 은도끼, 쇠도끼를 다 가져가거라!!");
 		}
 		

@@ -12,8 +12,8 @@ public class B_continue {
 		 * 단, 4의 배수이면서 5의 배수인 값만 출력
 		 * */
 		
-		for(int i = 1; i <= 100; i++) {
-			if(!(i % 4 == 0 && i % 5 == 0)) {
+		for(int i = 1; i <= 100; i++) {			// 1부터 시작해서 100까지 1씩증가
+			if(!(i % 4 == 0 && i % 5 == 0)) {	// i가 4로 나눈 값이 0 이고 i가 5로 나눈 값이 0이지않으면 계속 맞으면 출력 
 				continue;
 			}
 			System.out.println(i);

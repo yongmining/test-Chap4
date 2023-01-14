@@ -51,7 +51,8 @@ public class D_switch {
 			case '%' : 
 				result = first % second;
 				break;
-			/* defualt문은 생략 가능하지만 생략하는 경우 이 위치에 주석으로 생략 이유를 달아주는 것이 좋다. */
+			
+				/* defualt문은 생략 가능하지만 생략하는 경우 이 위치에 주석으로 생략 이유를 달아주는 것이 좋다. */
 		}
 		
 		System.out.println(first + " " + op + " " + second + " = " + result);
